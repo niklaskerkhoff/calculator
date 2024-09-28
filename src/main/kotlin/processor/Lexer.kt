@@ -25,7 +25,7 @@ class Lexer(
         val token = tokens.find { currentInput.matches(it.pattern) }
             ?: throw IllegalCharacterException(currentInput)
 
-        var value = ""
+        var value: String
         var newValue = input.first()
 
         do {

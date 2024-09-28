@@ -1,6 +1,26 @@
 # README
 
-This is an example calculator written in Kotlin for the JVM. It supports `*, /, +, -, (, )` on integers and floating point numbers. The real part of floating point numbers can either be separated by `.` or by `,`.
+This is an example calculator written in Kotlin for the JVM. It supports `*, /, +, -, (, )` on integers and floating
+point numbers.
+
+## Usage
+
+- Enter the calculation you want to perform in the command line.
+- The decimal separator can either be `.` or `,`.
+- Whitespace characters are currently not supported.
+
+## Examples
+
+```
+> 1+1
+  = 2.0
+> 2+2*2
+  = 6.0
+> (2+2)*2
+  = 8.0
+> -2.5--3.7
+  = 1.2
+```
 
 ## Grammar
 
